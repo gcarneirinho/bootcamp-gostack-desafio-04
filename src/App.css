@@ -12,6 +12,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img:not(.logo){
+    border-radius: 50%;
+}
+
 .container {
 }
 
@@ -54,7 +58,6 @@ a:hover {
     width: 26px;
     height: 26px;
     margin-left: 20px;
-    border-radius: 50%;
     border: solid 1px transparent;
     transition: .4s all;
 }
@@ -66,6 +69,83 @@ a:hover {
 /* End Header Styles */
 
 /* PostList Styles */
+.postlist {
+    max-width: 700px;
+    min-height: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.postlist .postlist__post {
+    margin-bottom: 20px;
+    background: #FFF;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(151,151,151,0.51);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(151,151,151,0.51);
+    box-shadow: 0px 0px 8px 0px rgba(151,151,151,0.51);
+}
+
+.postlist .postlist__post h1 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.postlist .postlist__post header {
+    display: flex;
+    align-items: center;
+}
+
+
+.postlist .postlist__post header .date {
+    font-size: 11px;
+    color: #9A9A9A
+}
+
+.postlist .postlist__post header img {
+    width: 32px;
+    height: 32px;
+    transition: .4s all;
+    margin-right: 10px;
+}
+
+.postlist .postlist__post .content {
+    font-size: 14px;
+    line-height: 1.2rem;
+    padding: 20px 0;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+}
 
 /* End PostList Styles */
+
+/* Comments */
+
+.postlist .postlist__post .comment {
+    margin: 10px 0;
+    display: flex;
+}
+
+.postlist .postlist__post .comment img {
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+}
+
+.postlist .postlist__post .comment div {
+    flex: 1;
+    background: #eeeeee;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+.postlist .postlist__post .comment div p {
+    font-size: 13px;
+    line-height: 1.2rem;
+    color: #3E3E3E;
+}
+.postlist .postlist__post .comment div p span {
+    font-weight:bold ;
+}
+
+/* End Comments */
 
