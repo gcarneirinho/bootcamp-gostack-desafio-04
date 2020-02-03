@@ -4,6 +4,6 @@
 
 ### Features
 
-# Desafio com conhecimentos iniciais do React utilizando Webpack, Babel, Webpack Dev Server e ReactJS.
+<p> Desafio com conhecimentos iniciais do React utilizando Webpack, Babel, Webpack Dev Server e ReactJS.</p>
 
-# Uso de Class antes de partir para Hooks.
+<p> Uso de Class antes de partir para Hooks.</p>
